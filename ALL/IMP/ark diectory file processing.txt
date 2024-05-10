@@ -1,0 +1,19 @@
+[05:10] Debojyoti Chattopadhya
+2006 [2020/11/24 21:16:55] ark-dashboard stop -a scheduler-1.35
+22007 [2020/11/24 21:17:00] ark-dashboard start -a scheduler-1.35
+
+If not started then restart flattener
+
+[root@rel14620ark044 flatted]# ark-dashboard stop -a edcr-flattener-2.80-1
+[root@rel14620ark044 flatted]# ark-dashboard start -a edcr-flattener-2.80-1
+[root@rel14620ark044 flatted]#
+[root@rel14620ark044 flatted]# ark-dashboard stop -a esr-flattener-2.80
+[root@rel14620ark044 flatted]# ark-dashboard start -a esr-flattener-2.80
+[root@rel14620ark044 flatted]#
+[root@rel14620ark044 flatted]# ark-dashboard stop -a incident-flattener-2.80
+[root@rel14620ark044 flatted]# ark-dashboard start -a incident-flattener-2.80
+ like 1
+
+[05:15] Gaurav Pratap Shahi
+
+

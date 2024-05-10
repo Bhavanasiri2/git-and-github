@@ -1,0 +1,47 @@
+select * from directory_number where dn_num='61420714125' ;
+
+select * from business_unit where BUSINESS_UNIT_ID='15' ;
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+SELECT DN.DN_NUM MSISDN,DECODE('a','ASSIGNED','c','CONTRACTED','d','DEASSIGNED','t','QUARANTINE','s','SNAPBACKED') STATUS,
+BU.DESCRIPTION BUSINESS_UNIT,BU.BUSINESS_UNIT_ID FROM DIRECTORY_NUMBER DN,BUSINESS_UNIT BU WHERE DN.BUSINESS_UNIT_ID=BU.BUSINESS_UNIT_ID
+AND DN.DN_NUM ='61403060713';
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+Buss.Id	 Name	                  MVNO ID
+01       Default Business Unit    D
+02       Telstra Wholesale        F   
+04       TWUAT                    TEST01 
+03	 MVNOA	                  TEST02
+05	 Aldi/Medion	          MVNO30
+06       Kogan - Exited           MVNO31       
+12	 BetterLife	          MVNO32
+15	 Symbio	                  MVNO33
+07       Thorn Mobile - Exited    MVNO40
+09       iTelecom Comobile-Exited MVNO41 
+13	 SouthernPhone	          MVNO42
+14	 Macquarie	          MVNO43
+20	 EthernetFailover/CS	  MVNO45
+19	 KORE	                  MVNO46
+18	 MATE	                  MVNO47
+21	 NU Mobile	          MVNO48
+22	 WBI / MESH	          MVNO49
+08	 WoolWorths	          MVNO50
+17	 MES	                  MVNO60
+62       TWB                      MVNO62
+10	 Telechoice	          MVNO70
+23	 Exetel	                  MVNO71
+24	 More	                  MVNO73
+25       Konec                    MVNO74
+11	 TIAB	                  MVNO80
+16	 Belong	                  MVNO90
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+D number    Name/Email ID                  SITE       Contact Details
+d661726   Glenn.Kelly@team.telstra.com  ST LEONARDS   +61298672876
+d821883   Miguel.Rodriguez@team.telstra.com PITT ST   +61298673064
+d339811   Gervais.Tranquille@team.telstra.com ST LEONARDS +61298672867
+
+

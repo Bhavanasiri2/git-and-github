@@ -1,0 +1,202 @@
+[root@rel14620cor001 ~]# su - besr_adm
+Last login: Tue Dec  6 16:31:35 GMT 2022 on pts/0
+[besr_adm@rel14620cor001 ~]$ besr_cluster status corr
+# Executing command:'status' on component:'corr' on cluster wide
+# Issued command:'status' on host:'rel14620cor001'
+# Issued command:'status' on host:'rel14620cor002'
+# Issued command:'status' on host:'rel14620cor003'
+# Issued command:'status' on host:'rel14620cor004'
+# Issued command:'status' on host:'rel14620cor005'
+# Issued command:'status' on host:'rel14620cor006'
+# Issued command:'status' on host:'rel14620cor007'
+# Issued command:'status' on host:'rel14620cor008'
+'rel14620cor001' output:
+# Executing command:'status' on component:'corr' in local
+on host rel14620cor001: active(running)
+'rel14620cor003' output:
+# Executing command:'status' on component:'corr' in local
+on host rel14620cor003: active(running)
+'rel14620cor006' output:
+# Executing command:'status' on component:'corr' in local
+on host rel14620cor006: active(running)
+'rel14620cor007' output:
+# Executing command:'status' on component:'corr' in local
+on host rel14620cor007: active(running)
+'rel14620cor002' output:
+# Executing command:'status' on component:'corr' in local
+on host rel14620cor002: active(running)
+'rel14620cor008' output:
+# Executing command:'status' on component:'corr' in local
+on host rel14620cor008: active(running)
+'rel14620cor004' output:
+# Executing command:'status' on component:'corr' in local
+on host rel14620cor004: active(running)
+'rel14620cor005' output:
+# Executing command:'status' on component:'corr' in local
+on host rel14620cor005: active(running)
+[besr_adm@rel14620cor001 ~]$ date
+Tue Dec  6 22:49:56 GMT 2022
+[besr_adm@rel14620cor001 ~]$ besr_cluster stop corr
+# Executing command:'stop' on component:'corr' on cluster wide
+# Issued command:'stop' on host:'rel14620cor001'
+# Issued command:'stop' on host:'rel14620cor002'
+# Issued command:'stop' on host:'rel14620cor003'
+# Issued command:'stop' on host:'rel14620cor004'
+# Issued command:'stop' on host:'rel14620cor005'
+# Issued command:'stop' on host:'rel14620cor006'
+# Issued command:'stop' on host:'rel14620cor007'
+# Issued command:'stop' on host:'rel14620cor008'
+'rel14620cor006' output:
+# Executing command:'stop' on component:'corr' in local
+'rel14620cor007' output:
+# Executing command:'stop' on component:'corr' in local
+'rel14620cor001' output:
+# Executing command:'stop' on component:'corr' in local
+'rel14620cor008' output:
+# Executing command:'stop' on component:'corr' in local
+'rel14620cor004' output:
+# Executing command:'stop' on component:'corr' in local
+'rel14620cor002' output:
+# Executing command:'stop' on component:'corr' in local
+'rel14620cor003' output:
+# Executing command:'stop' on component:'corr' in local
+'rel14620cor005' output:
+# Executing command:'stop' on component:'corr' in local
+[besr_adm@rel14620cor001 ~]$ date
+Tue Dec  6 22:51:19 GMT 2022
+[besr_adm@rel14620cor001 ~]$ besr_cluster start corr
+# Executing command:'start' on component:'corr' on cluster wide
+# Starting config distribution!
+# Copying to rel14620cor001
+Copy file: engine.cfg
+Copy file: corr_cluster_config.json
+Copy file: eea-correlator.env
+Copy file: eea-correlation.env
+Copy file: eea-loglevel.env
+Copy file: ctr.cfg
+Copy file: sip.cfg
+Copy file: mos_calibration.cfg
+Copy file: generic_kpi_content.cfg
+Copy file: 5gnodes
+Copy file: esr_content.cfg
+Copy file: generic_kpi_content.cfg
+# Copying to rel14620cor002
+Copy file: engine.cfg
+Copy file: corr_cluster_config.json
+Copy file: eea-correlator.env
+Copy file: eea-correlation.env
+Copy file: eea-loglevel.env
+Copy file: ctr.cfg
+Copy file: sip.cfg
+Copy file: mos_calibration.cfg
+Copy file: generic_kpi_content.cfg
+Copy file: 5gnodes
+Copy file: esr_content.cfg
+Copy file: generic_kpi_content.cfg
+# Copying to rel14620cor003
+Copy file: engine.cfg
+Copy file: corr_cluster_config.json
+Copy file: eea-correlator.env
+Copy file: eea-correlation.env
+Copy file: eea-loglevel.env
+Copy file: ctr.cfg
+Copy file: sip.cfg
+Copy file: mos_calibration.cfg
+Copy file: generic_kpi_content.cfg
+Copy file: 5gnodes
+Copy file: esr_content.cfg
+Copy file: generic_kpi_content.cfg
+# Copying to rel14620cor004
+Copy file: engine.cfg
+Copy file: corr_cluster_config.json
+Copy file: eea-correlator.env
+Copy file: eea-correlation.env
+Copy file: eea-loglevel.env
+Copy file: ctr.cfg
+Copy file: sip.cfg
+Copy file: mos_calibration.cfg
+Copy file: generic_kpi_content.cfg
+Copy file: 5gnodes
+Copy file: esr_content.cfg
+Copy file: generic_kpi_content.cfg
+# Copying to rel14620cor005
+Copy file: engine.cfg
+Copy file: corr_cluster_config.json
+Copy file: eea-correlator.env
+Copy file: eea-correlation.env
+Copy file: eea-loglevel.env
+Copy file: ctr.cfg
+Copy file: sip.cfg
+Copy file: mos_calibration.cfg
+Copy file: generic_kpi_content.cfg
+Copy file: 5gnodes
+Copy file: esr_content.cfg
+Copy file: generic_kpi_content.cfg
+# Copying to rel14620cor006
+Copy file: engine.cfg
+Copy file: corr_cluster_config.json
+Copy file: eea-correlator.env
+Copy file: eea-correlation.env
+Copy file: eea-loglevel.env
+Copy file: ctr.cfg
+Copy file: sip.cfg
+Copy file: mos_calibration.cfg
+Copy file: generic_kpi_content.cfg
+Copy file: 5gnodes
+Copy file: esr_content.cfg
+Copy file: generic_kpi_content.cfg
+# Copying to rel14620cor007
+Copy file: engine.cfg
+Copy file: corr_cluster_config.json
+Copy file: eea-correlator.env
+Copy file: eea-correlation.env
+Copy file: eea-loglevel.env
+Copy file: ctr.cfg
+Copy file: sip.cfg
+Copy file: mos_calibration.cfg
+Copy file: generic_kpi_content.cfg
+Copy file: 5gnodes
+Copy file: esr_content.cfg
+Copy file: generic_kpi_content.cfg
+# Copying to rel14620cor008
+Copy file: engine.cfg
+Copy file: corr_cluster_config.json
+Copy file: eea-correlator.env
+Copy file: eea-correlation.env
+Copy file: eea-loglevel.env
+Copy file: ctr.cfg
+Copy file: sip.cfg
+Copy file: mos_calibration.cfg
+Copy file: generic_kpi_content.cfg
+Copy file: 5gnodes
+Copy file: esr_content.cfg
+Copy file: generic_kpi_content.cfg
+# Issued command:'start' on host:'rel14620cor001'
+# Issued command:'start' on host:'rel14620cor002'
+# Issued command:'start' on host:'rel14620cor003'
+# Issued command:'start' on host:'rel14620cor004'
+# Issued command:'start' on host:'rel14620cor005'
+# Issued command:'start' on host:'rel14620cor006'
+# Issued command:'start' on host:'rel14620cor007'
+# Issued command:'start' on host:'rel14620cor008'
+'rel14620cor008' output:
+# Executing command:'start' on component:'corr' in local
+'rel14620cor003' output:
+# Executing command:'start' on component:'corr' in local
+'rel14620cor004' output:
+# Executing command:'start' on component:'corr' in local
+'rel14620cor002' output:
+# Executing command:'start' on component:'corr' in local
+'rel14620cor001' output:
+# Executing command:'start' on component:'corr' in local
+'rel14620cor006' output:
+# Executing command:'start' on component:'corr' in local
+'rel14620cor007' output:
+# Executing command:'start' on component:'corr' in local
+'rel14620cor005' output:
+# Executing command:'start' on component:'corr' in local
+Job for eea-content-model-uploader.service failed because the control process exited with error code. See "systemctl status eea-content-model-uploader.service" and "journalctl -xe" for details.
+Failed to invoke eea-content-model-uploader service
+[besr_adm@rel14620cor001 ~]$ date
+Tue Dec  6 22:52:45 GMT 2022
+[besr_adm@rel14620cor001 ~]$

@@ -1,0 +1,174 @@
+https://internal.flowscape.ericsson.net/webapp/
+
+Status to check(MNP - Every hour(8AM-8PM & SAT- 10AM-6PM), Non MNP-Every two hours) 
+- Port-In - Port confirmed,Cutting over,Port awaiting provisioning ( no. of alerts must be less than 10)
+-Port-Out-Port awaiting completetion,Initiated cutover ,Port in progress
+                                                              
+Error in EDA Logs              2632678	
+Error in NAASLogs              2627591                                        
+Error in dve-Apps              2824246
+cjprvccn01;Error in CcnError   2645780                   
+Preprodgr Mem  INC2856842
+
+
+MAIL : MES : 0491658580: Moochies – Disable VoLTE
++ 889 98385 
+p1 to qued at ericsson end.
+MSRA-MICROSERVICES REFERENCE ARCHIETECTURE
+EIIMP- Ericsson Intelligence IT MODERNIZATION Platform
+
+https://hrcm.ss.sw.ericsson.se/eschat/chat.jsp
+=============================================================
+2973177    NoTraffic_Telechoice in last 15 min : cjprvbelDB1
+
+2973175    NoTraffic_Woolworths in last 15 min : cjprvbelDB1
+==================================================================================
+Provisioning requests getting queued at WME system due to error from CSM side.
+==================================================================================
+esamfat
+egabmeh
+evyyzco
+EBISKAJ
+egnoeak
+Ar3aqC2bq8PD
+
+RED HAT-
+https://sso.redhat.com/auth/realms/redhat-external/login-actions/registration?client_id=https%3A%2F%2Frhtapps.redhat.com%2Fpylugsaml2%2Fmetadata%2F&tab_id=LcnD6vvfXjQ
+
+Service desk number(MSDP Service desk) - 99400 (for MITO press 6 in case of P1 and P2 case)
+
+EXETEL : ITAM : NWSC : 61427469597 : Caller ID issue  : INC000102813003 : INC2313894
+MEDION : ITAM : NWSC : 61433668242 : Unable to connect the call   : INC000102824328 : INC2316020
+
+Citrix Receiver - 
+https://access.bp-au.sdt.ericsson.net/Citrix/bp00-auWeb/
+
+Zabbix
+https://tlwme.au.mito.sdt.ericsson.net/zabbix/index.php
+
+MITO
+https://tlwme.au.mito.sdt.ericsson.net/mito/webpage/login?session=expired#no-back-button
+
+https://tlwme.au.mito.sdt.ericsson.net:/mito/
+
+Modini
+https://iop-cmod.in.telstra.com.au/faces/pages/product.xhtml
+signum - d902623
+pwd - November@12345
+
+Activation report 
+https://tlwme.au.mito.sdt.ericsson.net/d/VPEAWAuZz/activation-report?orgId=1
+
+Stuck report
+https://tlwme.au.mito.sdt.ericsson.net/d/q2VXkOXZk/stuck-report?orgId=1
+
+Free Disk Space Utilization-
+https://tlwme.au.mito.sdt.ericsson.net/grafana/d/000000035/bscs?orgId=1&from=1683743400000&to=1691778599000&var-hostgroupName=Production%20Primary&var-hostname=cjprpbsc01
+
+Air Grafana	
+https://tlwme.au.mito.sdt.ericsson.net/d/000000027/air?orgId=1&refresh=5s&from=now-30m&to=now&var-hostgroupName=Production%20Primary&var-hostname=cjprvair01	
+
+ITAM
+https://itam9web.in.telstra.com.au/arsys/forms/itam9app/SHR%3ALandingConsole/Default+Administrator+View/?cacheid=1f9ce6b9
+signum - d902623
+pwd - July@12345
+
+Identity Manager| My Access
+https://idm.internal.ericsson.com/itim/ssui/#/myRequests
+
+https://tlwme.au.mito.sdt.ericsson.net/grafana/?orgId=1
+
+10080-Down for how many minutes
+Divide by 10080
+2489036
+namespace//ignore
+openshift operator
+================================================================================
+Username – signum
+Password - L9&#5C3b4f5j6j7A
+Zabbix link - https://tlwme.au.mito.sdt.ericsson.net/zabbix/index.php
+==============================================================================
+
+
+P1 GUI-
+http://203.111.44.57:3080/
+P1 Gui
+EDUTSHU
+Zip@12345
+www-proxy.ericsson.se
+port-8080
+
+CX GUI
+evyyzco 
+May@12345
+Sat-(10-6)am
+Sun-(WHOLE TIME) NON-MNP Hrs
+
+2hrs-p1 gui -NON-GUI	
+
+9AM-7PM (Activation/stuck Report)
+Open ITAM & Tools Availability // monday
+=====================================================================================================================
+Below is the new password for AMS Prod and Non-Prod Credentials.
+
+1)	Prod AMS -
+Username - EVYYZCO
+Password – EXR1oK7@Zq9g@HUa
+
+2)	Non-Prod AMS -
+Username – EVYYZCO
+Password – March@12345
+=====================================================================
+username-emctoas
+password-12@cO3F9mviNtxZ
+
+Please find new BCM URL’s below:
+PROD GR :
+http://10.168.138.215/zabbix/zabbix.php?action=dashboard.view
+PROD MAIN:
+http://10.168.138.118/zabbix/zabbix.php?action=dashboard.view
+
+RSG - BCM LINK
+http://10.13.31.146:80/zabbix - Prod
+http://10.9.191.146:80/zabbix - Non Prod
+=================================================================================================================================
+Incident for mail - INTERNAL : ALL : MAIL : 
+
+MAIL : Sys Compliance (Cust: Telstra; Sys: cjprvlog02; Usr: ?; Policy: Detection of local user accounts created
+==================================================================================================================================
+Please find IM contact details as mentioned below:
+8527148883
+9873359253
+8800899814
+
+TL-
+IM- Anindya Majumdar
+DBA-Iyappan Venkatachalam
+BSCS- Anindya Chowdhary
+BEL- MANOJ KUMAR J
+CS- ABBHA VISHWAKARMA
+System Admin-Iyappan Venkatachalam
+
+Manager-ABHILASH BHANOT
+
+MSDM(MS delivery manager)-RAJEEV SINGH R     MSIP-SUNIL HAKHU     BACK MSIP- MD. HELAl Abu noor     Gaurav Mittal- MSIP     MS COO- RICKY ABEDI
+====================================================================================================================================
+P1-Critical
+P2-Major/high
+P3-moderate/minor
+
+Critical-15 Mins	
+High- 30 Mins
+Medium- 45 Mins
+Warning- 60 Mins
+Low- 60 Mins 
+
+information
+Web Services-Service- BSCS
+SWITCHS/FIREWALL-MPBN TEAM
+BSCS-SERVER-SYSTEM ADMIN
+REPLICATION STATUS/TABLE SPACE/SERVER-SYSTEM ADMIN
+
+CHGW- Change Request
+https://ericsson.sharepoint.com/sites/TelstaWME1stLevelOperations/Shared%20Documents/Forms/AllItems.aspx?sortField=Modified&isAscending=false&id=%2Fsites%2FTelstaWME1stLevelOperations%2FShared%20Documents%2FTeam%20Communication%2FDocuments
+

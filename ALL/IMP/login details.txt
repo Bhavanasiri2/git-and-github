@@ -1,0 +1,103 @@
+citrix old link
+https://myapps-ee.bt.com/vpn/index.html
+
+
+citrix new link
+https://myapps.bt.com/Citrix/myapps_extWeb/
+
+
+citrix login -raghu bhai
+612826951 / BTEE@btcne**
+
+user:612826951
+pwd: Ericsson@2022
+
+Rasamara@12345 /613489407(rajat)
+
+613489360/BTEE@btcne**(Manoj)
+
+BTEE@btcne**/613489421(vipul)
+
+credentials:id: 613828688
+password -- : BTEE@btcne**(gaurav )
+
+AESR Tools
+a.) Zabbix
+  -----------
+https://10.45.90.190:444/zabbix/index.php
+User Name:- msit
+Password :- cea123
+
+BESR TOOLS
+1)TSV
+-------
+  https://mobilecitrixtpa.int.ee.co.uk/
+
+SINGR38                  shahigp                         PARSHAM Ericsson@20221
+
+Ericsson@1234            Ericsson@7654321
+
+     sharmr52
+     Agra@5694
+  
+User name: VYASV2
+Password: Btcne@123456
+
+
+b.) MapR Dashboard
+   ---------------
+https://10.45.88.63:8443/
+User Name:- mcs_adm
+Password:- cea123
+
+
+c.) EEA GUI
+    -------	
+EEA GUI link : (open in CHROME/ Internet Explorer 11 Java 8u91)
+
+https://eea-sm2.eezone.bt.com/eea/
+credentials:id: 613828688
+password -- : BTEE@btcne**
+
+NOTE:MSISDN
+447957269796
+447957337629
+EEA expert analysis
+EDCR Datastore/Incident and ESR Datastore/Incident
+
+
+d) ILO (for trouble shooting with Ilo IP)
+ILO (open in MS EDGE Java 8u91 / Java 6U45-citrix new link)
+10.36.42.10
+select ip
+Ilo id : hpadmin
+Password : HP1nvent
+
+
+e) Jboss admin console
+-------------------
+https://10.45.88.184:9443/console/App.html
+eeaadmin
+Ee@2016!
+
+f) Jboss cluster manager
+---------------------
+https://eea-sm2.eezone.bt.com/mod_cluster_manager
+credentials:id: 613828688
+password -- : BTEE@btcne**
+
+
+g) INCIDENT CREATION
+BMC Remedy 
+    ---------- 
+https://ee.onbmc.com/arsys?user_domain=external
+
+BMC REMEDY(Gaurav)
+613828688
+Bmc@123*
+
+user:- 613489421(Vipul)
+passowrd : BTEE@btcne**
+
+
+

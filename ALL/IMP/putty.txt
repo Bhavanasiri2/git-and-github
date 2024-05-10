@@ -1,0 +1,83 @@
+1) AESR Putty
+   ------
+login to IP -10.45.90.190(old or new citrix )
+username- shahigp
+password- EEBTeeaadmin1!
+for ark 44 - sudo ssh 10.45.90.100
+for correlator- sudo ssh 10.45.90.10(open in another tab by duplicate session)
+
+2) SEVAS and SPECTRUM FILE
+sudo ssh rel14620adm001   (need to login 10.45.90.190 adm002 server then adm001)
+cd  /data/rdata_parser/
+ls -lrth
+
+3) FOR checking ARK applications
+sudo ssh 10.45.90.100
+arkpkgmgr status all
+arkpkgmgr status all -d | grep -i failed
+arkpkgmgr status all -d | grep -i inconsistent
+arkpkgmgr status all -d | grep -i stopped
+arkctl status impala-server
+
+4) For checking ARK subdirectories and three directories those are flattner, adapter, aggregator
+first sudo ssh 10.45.90.100
+docker exec -it mapr bash
+
+input adaptor directories:-
+------------------------
+
+hadoop fs -ls /mapr/eebt-arkimp-cluster/eea_data/input | tail
+hadoop fs -ls /mapr/eebt-arkimp-cluster/eea_data/input/edcr-incident | tail
+hadoop fs -ls /mapr/eebt-arkimp-cluster/eea_data/input/esr-incident | tail
+hadoop fs -ls /mapr/eebt-arkimp-cluster/eea_data/input/edcr | tail
+hadoop fs -ls /mapr/eebt-arkimp-cluster/eea_data/input/esr | tail
+
+Aggregater Directories:-
+---------------------
+hadoop fs -ls /mapr/eebt-arkimp-cluster/eea_data/aggregated/incident_esr_aggregate_v4 | tail
+hadoop fs -ls /mapr/eebt-arkimp-cluster/eea_data/aggregated/incident_edcr_terminal_v3 | tail
+
+hadoop fs -ls /mapr/eebt-arkimp-cluster/eea_data/aggregated/incident_esr_aggregate_v4/fivemin | tail
+hadoop fs -ls /mapr/eebt-arkimp-cluster/eea_data/aggregated/incident_edcr_terminal_v3/fivemin | tail
+
+
+hadoop fs -ls /mapr/eebt-arkimp-cluster/eea_data/aggregated/incident_esr_aggregate_v4/onehour | tail
+hadoop fs -ls /mapr/eebt-arkimp-cluster/eea_data/aggregated/incident_edcr_terminal_v3/onehour | tail
+
+hadoop fs -ls /mapr/eebt-arkimp-cluster/eea_data/aggregated/incident_esr_aggregate_v4/oneday | tail
+hadoop fs -ls /mapr/eebt-arkimp-cluster/eea_data/aggregated/incident_edcr_terminal_v3/oneday | tail
+
+
+Fattener Directoies:-
+------------------
+hadoop fs -ls /mapr/eebt-arkimp-cluster/eea_data/flatted | tail
+hadoop fs -ls /mapr/eebt-arkimp-cluster/eea_data/flatted/incident_esr | tail
+hadoop fs -ls /mapr/eebt-arkimp-cluster/eea_data/flatted/incident_edcr | tail
+hadoop fs -ls /mapr/eebt-arkimp-cluster/eea_data/flatted/esr_kpi | tail
+hadoop fs -ls /mapr/eebt-arkimp-cluster/eea_data/flatted/edcr_kpi | tail
+hadoop fs -ls /mapr/eebt-arkimp-cluster/eea_data/flatted/esr_trigger | tail
+
+5) For correlator file processing
+cd /data/esc/esr_esc
+ ll
+
+
+3)putty 
+-------
+admin server for BESR 
+login ip 10.244.55.190
+username- shahigp
+password- EEBTeeaadmin1
+
+Correlator health check
+
+
+ps -ef | grep pgw
+su besr_adm
+foreach "top -n1|head -7|tail -1 && top -n1|grep pgw_session"
+
+docker exec -it mapr bash
+hadoop fs -ls /mapr/eebt-arkimp-cluster/eea_data/input | tail
+hadoop fs -ls /mapr/eebt-arkimp-cluster/eea_data/aggregated/incident_esr_aggregate_v4 | tail
+hadoop fs -ls /mapr/eebt-arkimp-cluster/eea_data/aggregated/incident_edcr_terminal_v3 | tail
+hadoop fs -ls /mapr/eebt-arkimp-cluster/eea_data/flatted | tail

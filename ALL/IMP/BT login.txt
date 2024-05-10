@@ -1,0 +1,367 @@
+citrix old link
+https://myapps-ee.bt.com/vpn/index.html
+
+citrix login -raghu bhai
+612826951 / BTEE@btcne**
+
+user:612826951
+pwd: Ericsson@2022
+
+Rasamara@12345 /613489407(rajat)
+
+613489360/BTEE@btcne**(Manoj)
+
+BTEE@btcne**/613489421(vipul)
+
+credentials:id: 613828688
+password -- : BTEE@btcne**(gaurav )
+
+citrix new link
+https://myapps.bt.com/Citrix/myapps_extWeb/
+
+AESR Tools
+a.) Zabbix
+  -----------
+https://10.45.90.190:444/zabbix/index.php
+User Name:- msit
+Password :- cea123
+
+
+b.) MapR Dashboard
+   ---------------
+https://10.45.88.63:8443/
+User Name:- mcs_adm
+Password:- cea123
+
+
+c.) EEA GUI
+    -------	
+EEA GUI link : (open in CHROME/ Internet Explorer 11 Java 8u91)
+
+https://eea-sm2.eezone.bt.com/eea/
+credentials:id: 613828688
+password -- : BTEE@btcne**
+
+NOTE:MSISDN
+447957269796
+447957337629
+EEA expert analysis
+EDCR Datastore/Incident and ESR Datastore/Incident
+
+
+d) ILO (for trouble shooting with Ilo IP)
+ILO (open in MS EDGE Java 8u91 / Java 6U45-citrix new link)
+10.36.42.10
+select ip
+Ilo id : hpadmin
+Password : HP1nvent
+
+e.) Putty
+   ------
+login to IP -10.45.90.190(old or new citrix )
+username- shahigp
+password- EEBTeeaadmin1!
+for ark 44 - sudo ssh 10.45.90.100
+for correlator- sudo ssh 10.45.90.10(open in another tab by duplicate session)
+
+ internal report
+  -----------
+
+cd /root/report_generation/
+ls -lrth
+./health_check_report.sh
+cat Final_Health_Status.report
+
+f.) BMC Remedy 
+    ---------- 
+https://ee.onbmc.com/arsys?user_domain=external
+
+BMC REMEDY(Gaurav)
+613828688
+Bmc@123*
+
+user:- 613489421(Vipul)
+passowrd : BTEE@btcne**
+
+
+Jboss admin console
+-------------------
+https://10.45.88.184:9443/console/App.html
+eeaadmin
+Ee@2016!
+
+Jboss cluster manager
+---------------------
+https://eea-sm2.eezone.bt.com/mod_cluster_manager
+credentials:id: 613828688
+password -- : BTEE@btcne**
+
+BESR TOOLS
+1)TPA
+-------
+  https://mobilecitrixtpa.int.ee.co.uk/
+
+SINGR38                  shahigp                         PARSHAM  EEBTeeaadmin1!
+  Ericsson@1234          Ericsson@7654321
+
+     sharmr52
+     Agra@5694
+  
+User name: VYASV2
+Password: BTEE@btcne**
+
+2)Zabbix (BESR) ->
+---------
+https://10.244.55.190:444/zabbix
+msit
+cea123
+
+3)putty 
+-------
+admin server for BESR (superputty beckton)
+login ip 10.244.55.190
+username- shahigp
+password- EEBTeeaadmin1!
+
+https://eea-sm2.eezone.bt.com/mod_cluster_manager
+---------------------------------------------
+credentials:id: 613828688
+password -- : BTEE@btcne**
+
+Jboss admin console
+-------------------
+https://10.45.88.184:9443/console/App.html
+eeaadmin
+Ee@2016!
+10.244.55.190
+
+
+
+INCIDENT CREATION
+bmc link for tt creation
+https://ams-rsso1.onbmc.com/rsso/start
+
+ Vipul Vyas
+user :613489421
+passowrd : BTEE@btcne**
+
+--------------- 
+cd /
+docker exec -it mapr bash
+
+correlator
+-----------
+cd /data/esc/esr_esc
+ ll
+
+
+
+All services status on ark 44 server :- arkpkgmgr status all 
+
+file processing in input and flatted directories :- docker exec -it mapr bash
+
+input adaptor directories:-
+------------------------
+hadoop fs -ls /mapr/eebt-arkimp-cluster/eea_data/input/edcr-incident | tail
+hadoop fs -ls /mapr/eebt-arkimp-cluster/eea_data/input/esr-incident | tail
+hadoop fs -ls /mapr/eebt-arkimp-cluster/eea_data/input/edcr | tail
+hadoop fs -ls /mapr/eebt-arkimp-cluster/eea_data/input/esr | tail
+
+Aggregater Directories:-
+---------------------
+hadoop fs -ls /mapr/eebt-arkimp-cluster/eea_data/aggregated/incident_esr_aggregate_v4/fivemin | tail
+hadoop fs -ls /mapr/eebt-arkimp-cluster/eea_data/aggregated/incident_edcr_terminal_v3/fivemin | tail
+
+
+hadoop fs -ls /mapr/eebt-arkimp-cluster/eea_data/aggregated/incident_esr_aggregate_v4/onehour | tail
+hadoop fs -ls /mapr/eebt-arkimp-cluster/eea_data/aggregated/incident_edcr_terminal_v3/onehour | tail
+
+hadoop fs -ls /mapr/eebt-arkimp-cluster/eea_data/aggregated/incident_esr_aggregate_v4/oneday | tail
+hadoop fs -ls /mapr/eebt-arkimp-cluster/eea_data/aggregated/incident_edcr_terminal_v3/oneday | tail
+
+
+Fattener Directoies:-
+------------------
+hadoop fs -ls /mapr/eebt-arkimp-cluster/eea_data/flatted/incident_esr | tail
+hadoop fs -ls /mapr/eebt-arkimp-cluster/eea_data/flatted/incident_edcr | tail
+hadoop fs -ls /mapr/eebt-arkimp-cluster/eea_data/flatted/esr_kpi | tail
+hadoop fs -ls /mapr/eebt-arkimp-cluster/eea_data/flatted/edcr_kpi | tail
+hadoop fs -ls /mapr/eebt-arkimp-cluster/eea_data/flatted/esr_trigger | tail
+
+
+
+BMC TICK
+https://ee.onbmc.com/arsys?user_domain=external
+          
+[12-05-2022 08:51] Vipul Vyas
+user:- 613489421
+passowrd : BTEE@btcne**
+
+
+
+Resolution :
+=====================
+Resolution comments ->file processing started working fine after restarting scheduler app.
+Logs of issue after resolution pasted -> Yes
+Logs & Steps taken for resolution -> Logs attached
+Date and time of issue resolve -> 22/08/2022 07:15 AM (UK TIME only)
+
+
+Closure:
+=====================
+Closure comments ->  CR has been deployed successfully on 9th Aug and the expected result is coming
+Current status -> OK
+Date and time of issue Closed -> 09/08/2022 08:25 AM (UK TIME only)
+
+
+BESR
+----
+https://ericsson.sharepoint.com/sites/TelstraTemp/Lists/MQI%20BESR/AllItems.aspx
+
+AESR
+----
+https://ericsson.sharepoint.com/sites/TelstraTemp/Lists/MQI%20AESR/AllItems.aspx
+ 
+TQI
+---
+https://ericsson.sharepoint.com/sites/TelstraTemp/Lists/TQI%20BTCNE/AllItems.aspx
+
+
+
+Probmon C
+----------
+cd /opt/ericsson/eea/tools/
+./probemon -c
+
+
+sevas and spectrum
+-----------------
+:----sudo ssh rel14620adm001
+:----cd /data/rdata_parser/
+     ls -lrth
+
+
+
+MSSDIN :
+----------------
+447957269796
+447957337629
+
+
+source_control -l ALL | grep kafka
+
+
+file processing restart corr 
+----------------------------
+ su - besr_adm
+    besr_cluster status corr
+    besr_cluster stop corr
+    besr_cluster start cor
+
+
+10.15.243.197
+UserId                : shahigp               VYASV2
+Password         : Dam7-haV7=sp               Yah3-foY5+b1
+
+
+ cd /home/vyasv2/key
+ssh -i csm01ltn_id_rsa eccd@10.194.11.3 --LTN
+ssh -i csm01mdh_id_rsa eccd@10.194.11.131 -- MDH
+ssh -i csm01gfd_id_rsa eccd@10.194.11.67 -- GFD
+ssh -i csm01wvn_id_rsa eccd@10.194.11.195 -- WVN
+
+pcc csm01ltn-dctr1   -  LTN
+--------------------
+kubect1 -n eric-eea-ns logs eric-csm-p-epg-ebm-594f8b5968-pfrqg | grep "\[SENT\] PERIODIC" |tail
+kubect1 -n eric-eea-ns logs eric-csm-p-epg-ebm-594f8b5968-pfrqg | grep "\[RECEIVED\] PERIODIC" |tail
+
+pcc csm01mdh-dctr1   -  MDH
+------------------
+kubect1 -n eric-eea-ns logs eric-csm-p-pgw-u-ebm-854d86dbdd-8rt6r | grep "\[SENT\] PERIODIC" |tail
+kubect1 -n eric-eea-ns logs eric-csm-p-pgw-u-ebm-854d86dbdd-8rt6r | grep "\[RECEIVED\] PERIODIC" |tail
+
+pcc csm01-dcgfdtr1   -  GFD
+
+
+
+
+
+
+
+
+Hi Bedia,
+
+Thanks for reaching out to BTCNEMSSD Team . Please refer the incident id raised for the same.
+
+INC000001200867 à  LTE connection release Ratio KPI is intermittently missing "Undefined" (Priority - P5)
+
+
+
+
+
+In case files for Esr is not updating (Stop and Start these three jobs)
+-----------------------------------------------------------------------
+
+
+
+arkpkgmgr stop esr-incident-hdfs-adapter
+arkpkgmgr stop esr-input-adapter
+arkpkgmgr stop rule-engine-esr
+
+
+
+arkpkgmgr start esr-incident-hdfs-adapter
+arkpkgmgr start esr-input-adapter
+arkpkgmgr start rule-engine-esr
+
+
+
+
+arkpkgmgr status esr-incident-hdfs-adapter
+arkpkgmgr status esr-input-adapter
+arkpkgmgr status rule-engine-esr
+
+
+
+
+
+In case files for Edcr is not updating (Stop and Start these three jobs)
+========================================
+
+
+
+arkpkgmgr stop edcr-incident-hdfs-adapter
+arkpkgmgr stop edcr-input-adapter
+arkpkgmgr stop rule-engine-edcr
+
+
+
+arkpkgmgr start edcr-incident-hdfs-adapter
+arkpkgmgr start edcr-input-adapter
+arkpkgmgr start rule-engine-edcr
+
+
+
+arkpkgmgr status edcr-incident-hdfs-adapter
+arkpkgmgr status edcr-input-adapter
+arkpkgmgr status rule-engine-edcr
+
+
+arkpkgmgr status all
+arkpkgmgr status all -d | grep -i failed
+arkpkgmgr status all -d | grep -i inconsistent
+arkpkgmgr status all -d | grep -i stopped
+arkctl status impala-server
+
+
+cd /
+docker exec -it mapr bash
+hadoop fs -ls /mapr/eebt-arkimp-cluster/eea_data/flatted
+
+
+hadoop fs -ls /mapr/eebt-arkimp-cluster/eea_data/input
+
+
+hadoop fs -ls /mapr/eebt-arkimp-cluster/eea_data/aggregated/incident_esr_aggregate_v4/fivemin | tail
+hadoop fs -ls /mapr/eebt-arkimp-cluster/eea_data/aggregated/incident_edcr_terminal_v3/fivemin | tail
+
